@@ -1,0 +1,172 @@
+.chevron {
+  transition: transform 200ms ease;
+  cursor: pointer;
+}
+
+.customGray {
+  color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+}
+.relatedPartyLink {
+  color: light-dark(var(--mantine-color-blue-7), var(--mantine-color-blue-9));
+  text-decoration: none;
+}
+
+.relatedPartyLink :hover {
+  color: light-dark(var(--mantine-color-blue-9), var(--mantine-color-blue-5));
+}
+
+.titles {
+  color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+  text-decoration: none;
+}
+.titles :hover {
+  color: light-dark(var(--mantine-color-blue-9), var(--mantine-color-blue-9));
+}
+
+.brandSection {
+  background-color: light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-5));
+}
+/* centertabs styling starts */
+.header {
+  padding-top: var(--mantine-spacing-sm);
+  background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-7));
+  border-bottom: rem(1px) solid light-dark(var(--mantine-color-gray-2), transparent);
+  margin-bottom: rem(120px);
+}
+
+.tabsList {
+  &::before {
+    display: none;
+  }
+}
+
+.tab {
+  font-weight: 500;
+  height: rem(38);
+  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-5));
+  position: relative;
+  bottom: -1px;
+
+  &:hover {
+    background-color: light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-5));
+  }
+
+  &[data-active] {
+    background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-7));
+    border-color: light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-7));
+    border-bottom-color: transparent;
+  }
+}
+/* centertabs styling ends */
+
+/* note dropzone */
+.wrapper {
+  position: relative;
+  margin-bottom: rem(30px);
+  cursor: pointer;
+  border: 1px dotted rgb(177, 175, 175);
+  &:hover {
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-5));
+  }
+}
+
+.dropzone {
+  border-width: rem(1px);
+}
+
+.icon {
+  color: light-dark(var(--mantine-color-gray-4), var(--mantine-color-dark-3));
+}
+
+.control {
+  position: absolute;
+  width: rem(250px);
+  left: calc(50% - rem(125px));
+  bottom: rem(-20px);
+}
+/* end note dropzone */
+
+.root {
+  margin-top: -90px;
+}
+
+.value {
+  font-size: rem(24px);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.diff {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: light-dark(var(--mantine-color-gray-4), var(--mantine-color-dark-3));
+}
+
+.title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.rowSelected {
+  background-color: var(--mantine-color-blue-light);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-radius: var(--mantine-radius-md);
+  border: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-5));
+  padding: var(--mantine-spacing-sm) var(--mantine-spacing-xl);
+  padding-left: calc(var(--mantine-spacing-xl) - var(--mantine-spacing-md));
+  background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-5));
+  margin-bottom: var(--mantine-spacing-sm);
+  cursor: pointer;
+}
+
+.itemDragging {
+  box-shadow: var(--mantine-shadow-sm);
+}
+
+.symbol {
+  font-size: rem(15px);
+  font-weight: 700;
+  width: 100%;
+}
+
+.dragHandle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-1));
+  padding-left: var(--mantine-spacing-md);
+  padding-right: var(--mantine-spacing-md);
+}
+
+.checklistSection {
+  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+}
+
+.flexHoverEffect {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.flexHoverEffect:hover {
+  background-color: #f0f0f0; /* Light grey background */
+}
+
+.settingsHighlighted {
+  color: light-dark(var(--mantine-color-blue-6), var(--mantine-color-blue-4));
+  text-decoration: none !important;
+}
+
+.settingsNotHighlighted {
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  text-decoration: none;
+}

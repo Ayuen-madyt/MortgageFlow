@@ -1,0 +1,12 @@
+/* ChecklistTable.module.css */
+.tableRow {
+  transition: background-color 0.3s ease;
+}
+
+.tableRow:hover {
+  background-color: #f8f9fa;
+}
+
+.customGray {
+  color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+}

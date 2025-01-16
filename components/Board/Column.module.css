@@ -1,0 +1,29 @@
+.column_card {
+  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+}
+
+.main_task {
+  padding: var(--mantine-spacing-2);
+  overflow-y: auto;
+  height: calc(100vh - 100px);
+}
+
+.empty_stage_rotate {
+  height: calc(100vh - 150px);
+  display: inline;
+}
+
+.main_task_bg {
+  background-color: light-dark(var(--mantine-color-blue-0), var(--mantine-color-blue-9));
+  padding: var(--mantine-spacing-xs);
+}
+
+.main_task_bg_white {
+  background-color: 'white';
+  padding: var(--mantine-spacing-sm);
+}
+
+.task_title {
+  text-decoration: none;
+  color: var(--mantine-color-blue-9);
+}

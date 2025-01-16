@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "plugins": [{ "name": "next" }]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "ContextAPI/UserContext.js",
+    "ContextAPI/ContextProvider.js",
+    "components/mainTask/ActivityFeedsCard.jsx",
+    "components/mainTask/Tasks.jsx",
+    "components/mainTask/SingleTask.jsx",
+    "components/mainTask/BrokerDetails.jsx",
+    "components/mainTask/ContactDetails.jsx",
+    "components/mainTask/LenderDetails.jsx",
+    "app/tasks/page.jsx",
+    "app/lender-detail/[lender_id]/page.jsx",
+    "components/Settings/BoardAndStages.jsx",
+    "app/board/[board_id]/page.jsx",
+    "app/authentication/page.jsx",
+    "components/Settings/Brokers.jsx",
+    "app/assigned-boards/page.jsx",
+    "components/SidebarLayout/NavbarNested.tsx",
+    "components/mainTask/Email.tsx",
+    "components/mainTask/NoteDetails.jsx",
+    "components/mainTask/ClientPortalCard.jsx",
+    "app/assigned-deals/page.jsx",
+    "components/mainTask/Feeds.jsx"
+  ],
+  "exclude": ["node_modules"]
+}
