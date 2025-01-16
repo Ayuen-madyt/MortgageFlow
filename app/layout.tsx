@@ -8,8 +8,8 @@ import 'react-phone-number-input/style.css';
 import '@mantine/notifications/styles.css';
 
 export const metadata = {
-  title: 'Brokerpa',
-  description: 'Empower your mortgage brokerage with Brokerpa',
+  title: 'MortgageFlow',
+  description: 'Empower your mortgage brokerage with MortgageFlow',
 };
 
 export default function RootLayout({ children }: { children: any }) {

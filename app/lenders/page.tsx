@@ -119,7 +119,7 @@ export default function page() {
           color: 'red',
           message:
             err.response.data.details.sqlMessage ==
-            'Cannot delete or update a parent row: a foreign key constraint fails (`brokerpa`.`main_task`, CONSTRAINT `main_task_ibfk_10` FOREIGN KEY (`lender_id`) REFERENCES `lender` (`lender_id`))'
+            'Cannot delete or update a parent row: a foreign key constraint fails (`MortgageFlow`.`main_task`, CONSTRAINT `main_task_ibfk_10` FOREIGN KEY (`lender_id`) REFERENCES `lender` (`lender_id`))'
               ? 'Cannot delete. Lender linked to a deal'
               : 'Error deleting lender(s)',
         });

@@ -24,12 +24,12 @@ export default function HeroText() {
             <Text component="span" className={classes.highlight} inherit>
               Mortgage Brokerage
             </Text>{' '}
-            with Brokerpa
+            with MortgageFlow
           </Title>
 
           <Container p={0} size={600}>
             <Text size="lg" c="dimmed" className={classes.description}>
-              Brokerpa is mortgage broker specific workflow software, guaranteed to grow your
+              MortgageFlow is mortgage broker specific workflow software, guaranteed to grow your
               revenue while working fewer hours.
             </Text>
           </Container>
